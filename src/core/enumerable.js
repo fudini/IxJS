@@ -344,7 +344,7 @@
                         map.push(firstEnumerator.getCurrent());
                     }
                 } catch(e) {
-                    catch(e);
+                    throw e;
                 } finally {
                     firstEnumerator.dispose();
                 }
